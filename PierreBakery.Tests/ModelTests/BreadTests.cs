@@ -29,5 +29,20 @@ namespace PierreBakery.TestTools
       //Assert
       Assert.AreEqual(orderAmount, result);
     }
+
+    [TestMethod]
+    public void BreadOrder_CheckOrderOfTwoLoaves_Ten()
+    {
+      //Arrange
+      int userEnteredQty = 2;
+      int orderAmount = 10;
+      Bread testBreadOrder = new Bread();
+
+      //Act
+      int result = testBreadOrder.BreadOrder(userEnteredQty);
+
+      //Assert
+      Assert.AreEqual(orderAmount, result);
+    }
   }
 }
