@@ -10,3 +10,6 @@
 /Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.dll
 /Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/ref/PierreBakery.dll
 /Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.pdb
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/bin/Debug/net5.0/PierreBakery.runtimeconfig.json
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/bin/Debug/net5.0/PierreBakery.runtimeconfig.dev.json
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.genruntimeconfig.cache

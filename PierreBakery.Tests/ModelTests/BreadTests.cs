@@ -19,12 +19,12 @@ namespace PierreBakery.TestTools
     public void BreadOrder_CheckOrderOfOneLoaf_Five()
     {
       //Arrange
-      int userEnteredQty = 1;
+      int breadOrderQty = 1;
       int orderAmount = 5;
       Bread testBreadOrder = new Bread();
 
       //Act
-      int result = testBreadOrder.BreadOrder(userEnteredQty);
+      int result = testBreadOrder.BreadOrder(breadOrderQty);
 
       //Assert
       Assert.AreEqual(orderAmount, result);
@@ -34,12 +34,12 @@ namespace PierreBakery.TestTools
     public void BreadOrder_CheckOrderOfTwoLoaves_Ten()
     {
       //Arrange
-      int userEnteredQty = 2;
+      int breadOrderQty = 2;
       int orderAmount = 10;
       Bread testBreadOrder = new Bread();
 
       //Act
-      int result = testBreadOrder.BreadOrder(userEnteredQty);
+      int result = testBreadOrder.BreadOrder(breadOrderQty);
 
       //Assert
       Assert.AreEqual(orderAmount, result);
@@ -49,12 +49,12 @@ namespace PierreBakery.TestTools
     public void BreadOrder_ReturnQtySpecialOfBuyTwoGetOneFree_Three()
     {
       //Arrange
-      int userEnteredQty = 2;
+      int breadOrderQty = 2;
       int receivedQty = 3;
       Bread testSpecialOffer = new Bread();
 
       //Act
-      int result = testSpecialOffer.SpecialOffer(userEnteredQty);
+      int result = testSpecialOffer.SpecialOffer(breadOrderQty);
 
       //Assert
       Assert.AreEqual(receivedQty, result);

@@ -19,12 +19,12 @@ namespace PierreBakery.TestTools
     public void PastryOrder_CheckOrderOfOnePastry_Two()
     {
       //Arrange
-      int userEnteredQty = 1;
+      int pastryOrderQty = 1;
       int orderAmount = 2;
       Pastry testPastryOrder = new Pastry();
 
       //Act
-      int result = testPastryOrder.PastryOrder(userEnteredQty);
+      int result = testPastryOrder.PastryOrder(pastryOrderQty);
 
       //Assert
       Assert.AreEqual(orderAmount, result);
@@ -34,12 +34,12 @@ namespace PierreBakery.TestTools
     public void PastryOrder_CheckOrderOfThreePastry_Five()
     {
       //Arrange
-      int userEnteredQty = 3;
+      int pastryOrderQty = 3;
       int orderAmount = 5;
       Pastry testPastryOrder = new Pastry();
 
       //Act 
-      int result = testPastryOrder.PastryOrder(userEnteredQty);
+      int result = testPastryOrder.PastryOrder(pastryOrderQty);
 
       //Assert
       Assert.AreEqual(orderAmount, result);
