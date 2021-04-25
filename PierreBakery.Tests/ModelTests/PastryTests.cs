@@ -21,10 +21,9 @@ namespace PierreBakery.TestTools
       //Arrange
       int pastryOrderQty = 1;
       int orderAmount = 2;
-      Pastry testPastryOrder = new Pastry();
 
       //Act
-      int result = testPastryOrder.PastryOrder(pastryOrderQty);
+      int result = Pastry.PastryOrder(pastryOrderQty);
 
       //Assert
       Assert.AreEqual(orderAmount, result);
@@ -36,10 +35,9 @@ namespace PierreBakery.TestTools
       //Arrange
       int pastryOrderQty = 3;
       int orderAmount = 5;
-      Pastry testPastryOrder = new Pastry();
 
       //Act 
-      int result = testPastryOrder.PastryOrder(pastryOrderQty);
+      int result = Pastry.PastryOrder(pastryOrderQty);
 
       //Assert
       Assert.AreEqual(orderAmount, result);
