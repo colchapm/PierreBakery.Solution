@@ -9,5 +9,18 @@ namespace PierreBakery.Models
       int orderAmount = userEnteredQty * 5; 
       return orderAmount;
     }
+
+    public int SpecialOffer(int userEnteredQty)
+    {
+      int receivedQty = userEnteredQty;
+      if (userEnteredQty >= 2)
+      {
+        return receivedQty + 1;
+      }
+      else 
+      {
+        return receivedQty;
+      }
+    }
   }
 }

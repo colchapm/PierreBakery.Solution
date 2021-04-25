@@ -44,5 +44,20 @@ namespace PierreBakery.TestTools
       //Assert
       Assert.AreEqual(orderAmount, result);
     }
+
+    [TestMethod]
+    public void BreadOrder_ReturnQtySpecialOfBuyTwoGetOneFree_Three()
+    {
+      //Arrange
+      int userEnteredQty = 2;
+      int receivedQty = 3;
+      Bread testSpecialOffer = new Bread();
+
+      //Act
+      int result = testSpecialOffer.SpecialOffer(userEnteredQty);
+
+      //Assert
+      Assert.AreEqual(receivedQty, result);
+    }
   }
 }
