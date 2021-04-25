@@ -1,4 +1,4 @@
-# Pierre's Bakert
+# Pierre's Bakery
 
 ### Epicodus Independent Code Review - Test-Driven Development with C#
 
