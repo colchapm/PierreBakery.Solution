@@ -11,6 +11,8 @@ namespace PierreBakery
     {
       Console.WriteLine("Welcome to Pierre's Bakery");
       System.Threading.Thread.Sleep(2000);
+      Console.WriteLine("Each loaf of bread costs $5 and each pastry is $2 each.");
+      System.Threading.Thread.Sleep(1000);
       Console.WriteLine("Our current specials are: Buy 2 Or More Loaves of Bread, Get One Free & Buy 3 Pastries for $5");
       System.Threading.Thread.Sleep(2000);
       Console.WriteLine("How many loaves of bread would you like?");
