@@ -29,5 +29,20 @@ namespace PierreBakery.TestTools
       //Assert
       Assert.AreEqual(orderAmount, result);
     }
+
+    [TestMethod]
+    public void PastryOrder_CheckOrderOfThreePastry_Five()
+    {
+      //Arrange
+      int userEnteredQty = 3;
+      int orderAmount = 5;
+      Pastry testPastryOrder = new Pastry();
+
+      //Act 
+      int result = testPastryOrder.PastryOrder(userEnteredQty);
+
+      //Assert
+      Assert.AreEqual(orderAmount, result);
+    }
   }
 }

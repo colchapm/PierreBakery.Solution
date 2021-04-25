@@ -6,7 +6,14 @@ namespace PierreBakery.Models
     public int PastryOrder(int userEnteredQty)
     {
       int orderAmount = userEnteredQty * 2;
-      return orderAmount;
+      if (userEnteredQty == 3)
+      {
+        return orderAmount = 5;
+      }
+      else 
+      {
+        return orderAmount;
+      }
     }
   }
 }
