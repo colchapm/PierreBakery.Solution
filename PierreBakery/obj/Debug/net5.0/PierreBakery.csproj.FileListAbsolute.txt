@@ -1,0 +1,12 @@
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/bin/Debug/net5.0/PierreBakery.deps.json
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/bin/Debug/net5.0/PierreBakery.dll
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/bin/Debug/net5.0/ref/PierreBakery.dll
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/bin/Debug/net5.0/PierreBakery.pdb
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.csprojAssemblyReference.cache
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.AssemblyInfoInputs.cache
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.AssemblyInfo.cs
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.csproj.CoreCompileInputs.cache
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.dll
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/ref/PierreBakery.dll
+/Users/cchap14/Desktop/epicodus-jan/c#/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.pdb
