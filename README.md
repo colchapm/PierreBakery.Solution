@@ -44,7 +44,7 @@ This is a C# console application for Pierre's Bakery. This basic application run
 
 ## Known Bugs
 
-No known bugs at this time
+The application will not run successully if the user enters a string e.g. "five".
 
 ## Link
 
