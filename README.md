@@ -27,19 +27,19 @@ This is a C# console application for Pierre's Bakery. This basic application run
 * _Clone this project with the following command  `$ git clone <https://github.com/colchapm/PierreBakery.Solution.git>`_
 * _Navigate to the test level of the repository with the command `$ cd PierreBakery.Tests`_
 * _Retrieve and install packages listed in the .csproj files with the command `$ dotnet restore`_
-* _Compile and run the application with the command `$ dotnet run`_
+* _Compile and run the application with the command `$ dotnet test`_
 
 ## Specificatons
 
 | Behavior | Input | Output |
 |:---: |:---:|:---:|
 | The program should successfully create a Bread object | When it instantiates a new Bread object| Return type Bread|
-| The program should return the order value of 1 loaf of bread | When it receives 1 | It should return 5|
-| The program should return the order value of 2 loaves of bread | When it receives 2 | It should return 10|
-| The program should return the number of loaves the user receives when they take advantage of the special offer | When it receives 2 | It should return 3|
+| The program should return the order value of 1 loaf of bread | When it receives 1 bread | It should return $5|
+| The program should return the order value of 2 loaves of bread | When it receives 2 bread | It should return $10|
+| The program should return the number of loaves the user receives when they take advantage of the special offer | When it receives 2 bread | It should return 3 bread|
 | The program should successfully create a Pastry object | When it instantiates a new Pastry object | Return type Pastry|
-| The program should return the order value of 1 pastry| When it receives 1 | It should return 2|
-| The program should return the order value when the user takes advantage of the special offer | When it receives 3 | It should return 5|
+| The program should return the order value of 1 pastry| When it receives 1 pastry | It should return $2|
+| The program should return the order value when the user takes advantage of the special offer | When it receives 3 pastry | It should return $5|
 
 
 ## Known Bugs
