@@ -3,10 +3,14 @@ namespace PierreBakery.Models
 {
   public class Bread
   {
+    public int Quantity { get; set; }
+    public Bread(int breadOrderQty)
+    {
+      Quantity = breadOrderQty;
+    }
     public static int BreadOrder(int breadOrderQty)
     {
-      int orderAmount = breadOrderQty * 5; 
-      return orderAmount;
+      return breadOrderQty * 5;
     }
 
     public static int SpecialOffer(int breadOrderQty)
