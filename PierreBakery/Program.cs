@@ -20,7 +20,7 @@ namespace PierreBakery
       int pastryOrderQty = int.Parse(stringPastryOrder);
     
       int breadOrder = Bread.SpecialOffer(breadOrderQty);
-      double orderTotal = Bread.BreadOrder(breadOrderQty) + Pastry.PastryOrder(pastryOrderQty);
+      int orderTotal = Bread.BreadOrder(breadOrderQty) + Pastry.PastryOrder(pastryOrderQty);
 
       System.Threading.Thread.Sleep(1000);
       Console.WriteLine($"Your order results in {breadOrder} loaves of bread and {pastryOrderQty} pastries. Your total comes out to ${orderTotal}.");
