@@ -8,15 +8,15 @@ namespace PierreBakery.Models
     {
       Quantity = breadOrderQty;
     }
-    public static int BreadOrder(int breadOrderQty)
+    public static int BreadOrder(int Quantity)
     {
-      return breadOrderQty * 5;
+      return Quantity * 5;
     }
 
-    public static int SpecialOffer(int breadOrderQty)
+    public static int SpecialOffer(int Quantity)
     {
-      int receivedQty = breadOrderQty;
-      if (breadOrderQty>= 2)
+      int receivedQty = Quantity;
+      if (Quantity>= 2)
       {
         return receivedQty + 1;
       }

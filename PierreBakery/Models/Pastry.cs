@@ -9,10 +9,10 @@ namespace PierreBakery.Models
     {
       Quantity = pastryOrderQty;
     }
-    public static int PastryOrder(int pastryOrderQty)
+    public static int PastryOrder(int Quantity)
     {
-      int orderAmount = pastryOrderQty * 2;
-      if (pastryOrderQty == 3)
+      int orderAmount = Quantity * 2;
+      if (Quantity == 3)
       {
         return orderAmount = 5;
       }
